@@ -1,8 +1,6 @@
-[![](https://jitpack.io/v/functionland/fula-build-aar.svg)](https://jitpack.io/#functionland/fula-build-aar)
+# fula-build-xcframework
+XCFramework for fula mobile
 
-# fula-build-aar
-Android Wrapper for fula mobile
+This repository contains the .xcframework files for the iOS wrapper of go-fula for react native (react-native-fula)
 
-This repository contains the .aar file for the Android wrapper of go-fula for react native (react-native-fula) and updates the jitpack.io library repo
-
-Created with gomobile with Android NDK 25: gomobile bind -v  -o mobile.aar -target=android github.com/functionland/go-fula/mobile 
+Created with gomobile with iOS 16+: gomobile bind -v  -o Fula.xcframework -target=iOS github.com/functionland/go-fula/mobile 
